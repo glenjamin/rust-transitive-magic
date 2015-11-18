@@ -1,0 +1,34 @@
+[root]
+name = "hello_world"
+version = "0.0.1"
+dependencies = [
+ "magic-number-a 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "magic-number-b 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "magic-number"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "magic-number"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "magic-number-a"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "magic-number 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "magic-number-b"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "magic-number 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+

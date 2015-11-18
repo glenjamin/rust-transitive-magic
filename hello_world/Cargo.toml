@@ -1,0 +1,9 @@
+[package]
+
+name = "hello_world"
+version = "0.0.1"
+authors = ["Glen Mailer <glenjamin@gmail.com>"]
+
+[dependencies]
+magic-number-a = "0.1.0"
+magic-number-b = "0.1.0"

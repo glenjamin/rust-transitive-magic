@@ -1,0 +1,6 @@
+[package]
+name = "magic-number"
+version = "0.2.0"
+authors = ["Glen Mailer <glenjamin@gmail.com>"]
+description = "A dummy module for experimenting with dependency resolution"
+license = "MIT"
